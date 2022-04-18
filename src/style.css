@@ -1,3 +1,23 @@
+/* Textsize */
+.size1{
+  font-size: 44px;
+  line-height: 55px;
+}
+
+.size4{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.paragraph{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.paragraph p{
+  margin-top: 20px;
+}
+
 .note{
   background-color: black;
   height: 36px;
@@ -36,6 +56,9 @@
   margin: 0 10px;
   font-size: 12px;
 }
+.nav_link:hover{
+  opacity: 0.7;
+}
 
 .visual{
   background: url(./image/background01.jpeg) no-repeat;
@@ -67,7 +90,7 @@
   padding-left: 10px;
 }
 
-.logo_list{
+.logo_list{  
   display: flex;
   height: 50px;
   padding: 30px 0;
@@ -84,5 +107,99 @@
   vertical-align: -webkit-baseline-middle;
 }
 
+/* content */
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content .content_txt{
+  text-align: left;
+  font-weight: 300;
+  padding: 30px 0;
+}
+
+.content_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_item{
+  position: relative;
+  width: 100%;
+}
+
+.content_wrap .content_imglink:nth-child(1) img{
+  height: 600px;
+}
+
+.content_wrap .content_imglink:nth-child(2) img{
+  height: 520px;
+}
+
+.content_wrap .content_imglink button{
+  position: absolute;
+  width: 95%;
+  height: 10%;
+  top: 88%;
+  left: 3%;
+}
+
+.content_txtwrap{
+  display: flex;
+}
+
+.button_large{
+  width: 35%;  
+  display: flex;
+  border: 1px solid #ebedee;
+  padding: 30px;
+  margin-left: auto;
+}
+.button_large div{
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: #1f2121;
+  font-weight: 500;
+}
 
 /* footer */
+footer{
+  border-top: 1px solid #EAEDEE;
+  border-bottom: 1px solid #EAEDEE;
+  margin-top: 100px;
+}
+
+.footer{ 
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer_links{
+  display: flex;
+}
+
+.footer_wrap{
+  margin-left: 80px;
+}
+
+.footer_list .footer_link{
+  font-size: 14px; 
+  margin-bottom: 15px;
+  opacity: 0.7;
+  line-height: 22px;
+}
+
+.footer_list .footer_link:hover{
+  opacity: 1;
+}
+
+.footer_list .footer_link:nth-child(1){
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+}
+
